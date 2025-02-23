@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: 'BreakingBad';
+    src: url('../fonts/Breaking\ Bad.ttf') format('truetype');
+    font-size: rem;
+  }
+  
+  body {
+    font-family: 'BreakingBad', Helvetica;
+    font-size: 14px;/* Tamaño de fuente general para textos grandes */
+    color: #fff;     /* Texto en blanco, por ejemplo */
+    background-color: #0c3e11;
+  }
+  
+  .index-body {
+    background: url('../img/fondo.jpg') no-repeat center fixed;
+    background-size: cover; /* Forzamos Helvetica aquí */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .form-body {
+    background: url('../img/fondo.jpg') no-repeat center fixed;
+    background-size: cover; /* Forzamos Helvetica aquí */
+    color: #fff;
+    padding: 20px;
+    font-family: Helvetica;
+  }
+
+
+  /*
+  index.html
+  */
+  .leyenda {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logo-cont {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2rem; 
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    
+  }
+
+  .poster-cont {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+  }
+
+  
+  /*
+  formulario.html
+  */
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    margin: 5px;
+    font-size: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .pointer {
+    cursor: pointer
+  }
+
+
+  
+  /*
+  tabla.html
+  */
+  
+
+  .cabecera {
+    text-align: center;
+    margin: 2rem;
+
+  }
+ 
+
+  .tabla-quimica td {
+    border: 7px solid #272727;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  table {
+    border: 7px solid #272727;
+    margin: 0 auto;
+    font-family: Helvetica;
+    color:#272727;
+    font-weight: bolder;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 1100px;
+    height: px;
+    background-color: greenyellow;
+  }
+  
+  .table2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: olivedrab;
+  }
+
+  .fondo {
+    background-color: #272727;
+  }
+
+  .medio_verde {
+    background-color: yellowgreen;
+
+  }
+
+  .purple {
+    background-color: mediumpurple;
+  }
+
+  .claro {
+    background-color: lightyellow;
+  }
+
+  .simbolo {
+    font-size: 2rem;
+  }
+
+  .oliva {
+    background-color: olivedrab;
+  }
+
+  .sea{
+    background-color: darkseagreen;
+  }
+   
+  .verde_claro {
+    background-color: palegoldenrod;
+  }
+
+  .verde {
+    background-color: darkolivegreen;
+  }
+  
